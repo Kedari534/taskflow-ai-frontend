@@ -1,0 +1,257 @@
+/* ===========================
+   GLOBAL RESETS & BASE
+=========================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0a0a0c;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* ===========================
+   GLASS MORPHISM CARD
+=========================== */
+.glass-morphism {
+  background: rgba(20, 20, 24, 0.8) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  border: 1px solid #27272a !important;
+  border-radius: 12px !important;
+}
+
+.glass-morphism .ant-card-head {
+  background: transparent !important;
+  border-bottom: 1px solid #27272a !important;
+  color: white !important;
+}
+
+.glass-morphism .ant-card-body {
+  background: transparent !important;
+}
+
+/* ===========================
+   NEON BORDER
+=========================== */
+.neon-border {
+  border: 1px solid #00f2ff !important;
+  box-shadow: 0 0 10px rgba(0, 242, 255, 0.15), inset 0 0 10px rgba(0, 242, 255, 0.05) !important;
+}
+
+/* ===========================
+   CUSTOM ANT DESIGN MENU
+=========================== */
+.custom-menu .ant-menu-item {
+  color: #a1a1aa !important;
+  border-radius: 8px !important;
+  margin-bottom: 4px !important;
+  height: 44px !important;
+  line-height: 44px !important;
+  transition: all 0.2s ease !important;
+}
+
+.custom-menu .ant-menu-item:hover {
+  color: white !important;
+  background: rgba(255, 255, 255, 0.05) !important;
+}
+
+.custom-menu .ant-menu-item-selected {
+  background: linear-gradient(90deg, rgba(0, 242, 255, 0.1), rgba(112, 0, 255, 0.1)) !important;
+  color: #00f2ff !important;
+  border-left: 2px solid #00f2ff !important;
+}
+
+/* ===========================
+   ANT TABLE DARK THEME
+=========================== */
+.ant-table {
+  background: transparent !important;
+  color: white !important;
+}
+
+.ant-table-thead > tr > th {
+  background: rgba(255, 255, 255, 0.03) !important;
+  color: #a1a1aa !important;
+  border-bottom: 1px solid #27272a !important;
+  font-weight: 600 !important;
+}
+
+.ant-table-tbody > tr > td {
+  background: transparent !important;
+  border-bottom: 1px solid #1a1a1f !important;
+  color: white !important;
+}
+
+.ant-table-tbody > tr:hover > td {
+  background: rgba(255, 255, 255, 0.03) !important;
+}
+
+.ant-table-placeholder {
+  background: transparent !important;
+}
+
+/* ===========================
+   ANT INPUT DARK THEME
+=========================== */
+.ant-input,
+.ant-input-affix-wrapper,
+.ant-input-password {
+  background: #1c1c22 !important;
+  border: 1px solid #27272a !important;
+  color: white !important;
+}
+
+.ant-input::placeholder,
+.ant-input-affix-wrapper input::placeholder {
+  color: #52525b !important;
+}
+
+.ant-input:focus,
+.ant-input-affix-wrapper:focus,
+.ant-input-affix-wrapper-focused {
+  border-color: #00f2ff !important;
+  box-shadow: 0 0 0 2px rgba(0, 242, 255, 0.1) !important;
+}
+
+/* ===========================
+   ANT SELECT DARK THEME
+=========================== */
+.ant-select-selector {
+  background: #1c1c22 !important;
+  border: 1px solid #27272a !important;
+  color: white !important;
+}
+
+.ant-select-dropdown {
+  background: #1c1c22 !important;
+  border: 1px solid #27272a !important;
+}
+
+.ant-select-item {
+  color: #a1a1aa !important;
+}
+
+.ant-select-item-option-selected {
+  background: rgba(0, 242, 255, 0.1) !important;
+  color: #00f2ff !important;
+}
+
+.ant-select-item-option-active {
+  background: rgba(255, 255, 255, 0.05) !important;
+}
+
+/* ===========================
+   ANT DATEPICKER DARK
+=========================== */
+.ant-picker {
+  background: #1c1c22 !important;
+  border: 1px solid #27272a !important;
+  color: white !important;
+}
+
+.ant-picker-panel-container {
+  background: #1c1c22 !important;
+  border: 1px solid #27272a !important;
+}
+
+.ant-picker-header {
+  color: white !important;
+  border-bottom: 1px solid #27272a !important;
+}
+
+.ant-picker-cell-in-view {
+  color: white !important;
+}
+
+.ant-picker-cell-selected .ant-picker-cell-inner {
+  background: #00f2ff !important;
+  color: #0a0a0c !important;
+}
+
+/* ===========================
+   ANT MODAL DARK
+=========================== */
+.ant-modal-content {
+  background: #141418 !important;
+  border: 1px solid #27272a !important;
+}
+
+.ant-modal-header {
+  background: transparent !important;
+  border-bottom: 1px solid #27272a !important;
+}
+
+.ant-modal-title {
+  color: white !important;
+}
+
+.ant-modal-close {
+  color: #a1a1aa !important;
+}
+
+/* ===========================
+   ANT STATISTIC
+=========================== */
+.ant-statistic-title {
+  color: #a1a1aa !important;
+}
+
+.ant-statistic-content {
+  color: white !important;
+}
+
+/* ===========================
+   SCROLLBAR STYLING
+=========================== */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
+}
+
+/* ===========================
+   RESPONSIVE - HIDE MOBILE
+=========================== */
+.hide-mobile {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .hide-mobile {
+    display: none !important;
+  }
+}
+
+/* ===========================
+   NEON GLOW ANIMATION
+=========================== */
+@keyframes neonPulse {
+  0%, 100% { box-shadow: 0 0 5px rgba(0, 242, 255, 0.3); }
+  50% { box-shadow: 0 0 20px rgba(0, 242, 255, 0.6); }
+}
+
+.neon-pulse {
+  animation: neonPulse 2s infinite;
+}
+
+/* ===========================
+   LOADING SPINNER
+=========================== */
+.ant-spin-dot-item {
+  background-color: #00f2ff !important;
+}
